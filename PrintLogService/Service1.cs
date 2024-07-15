@@ -111,7 +111,7 @@ namespace PrintLogService
                 // Укажите URL вашего веб-приложения и API контроллера
                 var apiUrl = "https://localhost:7229/";
 
-                // Создаем HttpClientHandler с игнорированием ошибок сертификата
+                // Создаем HttpClientHandler с игно  рированием ошибок сертификата
                 var handler = new HttpClientHandler
                 {
                     ServerCertificateCustomValidationCallback = (sender, cert, chain, sslPolicyErrors) => true
